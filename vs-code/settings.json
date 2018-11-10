@@ -1,0 +1,54 @@
+{
+  // Directory at windows
+  // C:\Users\User\AppData\Roaming\Code\User
+
+  // Controls the font size in pixels.
+  "editor.fontSize": 11,
+
+  // Controls the font size in pixels of the terminal.
+  "terminal.integrated.fontSize": 11,
+
+  // Controls how lines should wrap.
+  //  - off: Lines will never wrap.
+  //  - on: Lines will wrap at the viewport width.
+  //  - wordWrapColumn: Lines will wrap at `editor.wordWrapColumn`.
+  //  - bounded: Lines will wrap at the minimum of viewport and `editor.wordWrapColumn`.
+  "editor.wordWrap": "wordWrapColumn",
+
+  // Controls whether `editor.tabSize#` and `#editor.insertSpaces` will be automatically detected when a file is opened based on the file contents.
+  "editor.detectIndentation": false,
+
+  // When enabled, will trim trailing whitespace when saving a file.
+  "files.trimTrailingWhitespace": true,
+
+  // When enabled, will trim all new lines after the final new line at the end of the file when saving it.
+  "files.trimFinalNewlines": false,
+
+  // Controls whether sorting favours words that appear close to the cursor.
+  "editor.suggest.localityBonus": true,
+
+  // Tab length
+  "[javascript]": {
+    "editor.tabSize": 2
+  },
+
+  "[html]": {
+    "editor.tabSize": 2
+  },
+
+  "[json]": {
+    "editor.tabSize": 2
+  },
+
+  "[jsonc]": {
+    "editor.tabSize": 2
+  },
+
+  "[markdown]": {
+    "editor.tabSize": 2
+  },
+
+  "terminal.integrated.shell.windows": "C:\\Program Files\\Git\\bin\\bash.exe",
+  "window.zoomLevel": 0,
+
+}
